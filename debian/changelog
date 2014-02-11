@@ -1,0 +1,7 @@
+bluez (5.14-1) unofficial; urgency=low
+
+  * Initial release.
+  * Branch off from the 5.14 tag, and restore the "mark as trusted" line in
+    the sixaxis plugin.
+
+ -- Alejandro Exojo Piqueras <suy@badopi.org>  Tue, 04 Feb 2014 12:29:18 +0100
