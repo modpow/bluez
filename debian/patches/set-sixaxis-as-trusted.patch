@@ -1,0 +1,11 @@
+--- a/plugins/sixaxis.c
++++ b/plugins/sixaxis.c
+@@ -228,6 +228,8 @@
+ 	btd_device_set_pnpid(device, devices[index].source, devices[index].vid,
+ 				devices[index].pid, devices[index].version);
+ 	btd_device_set_temporary(device, FALSE);
++	info("Marking the device as trusted.");
++	btd_device_set_trusted(device, TRUE);
+ 
+ 	return true;
+ }

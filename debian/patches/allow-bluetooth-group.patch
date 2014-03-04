@@ -1,0 +1,14 @@
+--- a/src/bluetooth.conf
++++ b/src/bluetooth.conf
+@@ -30,6 +30,11 @@
+     <allow send_destination="org.bluez"/>
+   </policy>
+ 
++  <!-- likewise for bluetooth group -->
++  <policy group="bluetooth">
++    <allow send_destination="org.bluez"/>
++  </policy>
++
+   <policy context="default">
+     <deny send_destination="org.bluez"/>
+   </policy>
