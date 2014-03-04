@@ -1,3 +1,10 @@
+bluez (5.14-2) unofficial; urgency=low
+
+  * Add patch on bluetooth.conf (D-Bus configuration) for allowing users in
+    the bluetooth group to talk to the bluez daemon.
+
+ -- Alejandro Exojo Piqueras <suy@badopi.org>  Tue, 04 Mar 2014 11:09:26 +0100
+
 bluez (5.14-1) unofficial; urgency=low
 
   * Initial release.
