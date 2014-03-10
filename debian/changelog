@@ -1,3 +1,9 @@
+bluez (5.14-3) UNRELEASED; urgency=low
+
+  * Create group bluetooth. Script snippet borrowed from Debian package.
+
+ -- Alejandro Exojo Piqueras <suy@badopi.org>  Mon, 10 Mar 2014 16:58:09 +0100
+
 bluez (5.14-2) unofficial; urgency=low
 
   * Add patch on bluetooth.conf (D-Bus configuration) for allowing users in
